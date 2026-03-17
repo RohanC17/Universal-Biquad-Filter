@@ -33,7 +33,7 @@ The design is realized on the ASLK PRO board using:
 
 ## 💻 Repository Contents
 * **`/circuit simulation`**: LTSpice schematics (`.asc`) and simulation results showing AC Analysis (Gain/Phase) for HP, LP, and BP outputs.
-* **`/behavioural`**: Python/MATLAB scripts used for calculating component values based on target $f_0$ and $Q$.
+* **`/behavioural`**: MATLAB script used for calculating component values based on target $f_0$ and $Q$.
 
 ## 🚀 How to Simulate
 1. Open the `.asc` files in the `spice` folder using **LTSpice**.
