@@ -32,8 +32,11 @@ The design is realized on the ASLK PRO board using:
 
 
 ## 💻 Repository Contents
-* **`/circuit simulation`**: LTSpice schematics (`.asc`) and simulation results showing AC Analysis (Gain/Phase) for HP, LP, and BP outputs.
-* **`/behavioural`**: MATLAB script used for calculating component values based on target $f_0$ and $Q$.
+* **/Behavioural**: Contains `behavioural model.m`, a MATLAB script for calculating the ideal second-order response and sensitivity.
+* **/Circuit Simulation**: Contains the LTSpice environment:
+    * `Universal_Biquad_tl082.asc`: The KHN circuit schematic.
+    * `tl082.cir`: Macro-model for the TL082 operational amplifier.
+    * `Universal_Biquad_tl082.plt`: Pre-configured plot settings for viewing HP, BP, and LP responses.
 
 ## 🚀 How to Simulate
 1. Open the `.asc` files in the `spice` folder using **LTSpice**.
