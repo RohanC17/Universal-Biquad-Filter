@@ -42,7 +42,6 @@ The design is realized on the ASLK PRO board using:
 1. Open the `.asc` files in the `spice` folder using **LTSpice**.
 2. Run the **AC Analysis** to view the frequency response.
 3. Observe how the peak of the Band-Pass output changes as the resistance values corresponding to the Q-factor are varied.
-4. Verify the **Phase Margin** in the simulation to confirm the stability of the filter.
 
 ---
 *Developed as part of the Analog Microelectronic Circuit Design (AMCD) course.*
